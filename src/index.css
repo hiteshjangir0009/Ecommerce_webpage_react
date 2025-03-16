@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.header {
+  @apply transition duration-425 ease-in-out transform  rounded-3xl hover:bg-amber-100 hover:text-black p-2 self-center active:bg-black active:text-white
+}
