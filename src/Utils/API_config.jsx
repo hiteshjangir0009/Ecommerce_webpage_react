@@ -1,7 +1,7 @@
 import Cookies from "js-cookie";
 
 
-export const live_url = `http://3.110.244.96:8000/api/v1/`
+export const live_url = `https://api.khetconnect.xyz/api/v1/`
 
 export const API_url = {
     Register: `${live_url}user/register`,
