@@ -56,7 +56,7 @@ const Checkout = () => {
         };
 
         try {
-            const response = await fetch("http://3.110.244.96:8000/api/v1/checkout/checkout", requestOptions);
+            const response = await fetch("https://api.khetconnect.xyz/api/v1/checkout/checkout", requestOptions);
             const result = await response.json();
             console.log("result ==>>",result);
             if (result.success ==true) {
