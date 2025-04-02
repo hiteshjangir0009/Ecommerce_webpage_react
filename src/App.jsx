@@ -5,6 +5,7 @@ import Contact from "./Pages/Contact"
 import Products from "./Pages/Products"
 import AuthPage from "./Pages/Auth/Login"
 import ShoppingCart from "./Pages/Cart"
+import Checkout from "./Pages/Checkout"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/auth' element={<AuthPage />} />
           <Route path='/cart' element={<ShoppingCart />} />
+          <Route path='/checkout' element={<Checkout />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/product/:category' element={<Products />} />
