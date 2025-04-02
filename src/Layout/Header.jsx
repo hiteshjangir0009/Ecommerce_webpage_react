@@ -53,7 +53,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="flex px-3 py-4 text-[18px] lg:px-10 w-full bg-white fixed shadow-md z-50 items-center">
+      <div className="flex px-3 py-2.5 text-[15px] lg:px-10 w-full bg-white fixed shadow-md z-50 items-center">
         {/* Large Screen Navbar */}
         <div className="flex justify-between w-full">
           <div className="text-[25px] font-bold">Khet Connect</div>
